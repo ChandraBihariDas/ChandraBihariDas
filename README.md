@@ -8,16 +8,16 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00C9FF&center=true&vCenter=true&multiline=false&width=700&lines=JavaScript+Full+Stack+Developer;MERN+Stack+Developer;AI+Engineer;Backend+Developer;Open+Source+Enthusiast;Building+BharatRakshak+AI+%F0%9F%87%AE%F0%9F%87%B3;Always+Learning+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
-<br/>
+![Building](https://img.shields.io/badge/🚧_Building-BharatRakshak_AI-FFB800?style=flat-square&labelColor=0A0A0F)
+![Available](https://img.shields.io/badge/💼_Open_to-SWE_Internships-00FF88?style=flat-square&labelColor=0A0A0F)
+![Stack](https://img.shields.io/badge/⚡_AI_·_Full_Stack_·_MERN_·_Backend-00C9FF?style=flat-square&labelColor=0A0A0F)
 
-<!-- SOCIAL BADGES -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/utkarsh-tripathi-a22a97387)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chandrabihari2005@gmail.com)
 [![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@utkarshtripathi)
 ![Profile Views](https://komarev.com/ghpvc/?username=ChandraBihariDas&style=for-the-badge&color=00C9FF&label=PROFILE+VIEWS)
 
-<!-- QUICK NAV -->
-**[About](#-about) · [Dashboard](#-developer-dashboard) · [Projects](#-featured-projects) · [Tech Stack](#-tech-stack) · [AI/ML](#-artificial-intelligence) · [GitHub Stats](#-github-analytics) · [Achievements](#-hackathons--achievements) · [Connect](#-connect)**
+**[About](#-about) · [Dashboard](#-developer-dashboard) · [Projects](#-featured-projects) · [Tech Stack](#-tech-stack) · [Stats](#-github-analytics) · [Achievements](#-hackathons--achievements) · [Connect](#-connect)**
 
 </div>
 
@@ -30,21 +30,15 @@
 <img src="./assets/profile-card.svg" width="480" alt="Developer Profile Card"/>
 </div>
 
-<br/>
+> *I build scalable full-stack applications and AI-powered products using JavaScript, TypeScript, Python, and modern backend technologies — solving real-world problems with production-grade code.*
 
-> *"Building AI-powered solutions for real-world problems — one commit at a time."*
-
-- 🎓 **B.Tech in Computer Science Engineering** @ **LNCT Bhopal**
-- ⚡ **JavaScript** is my primary language for full-stack development
-- 🧮 **C++** is my primary language for Data Structures & Algorithms
-- 📘 **TypeScript** is used in modern React & Next.js projects
-- 🐍 **Python** is used for AI, Machine Learning & FastAPI
-- 🤖 **MERN Stack Developer** & **AI Engineer**
-- 🏗️ Building production-grade platforms that solve real problems
-- 🥈 **Smart India Hackathon 2025 Runner-up**
+- 🎓 **B.Tech CSE** @ **LNCT Bhopal** · 🥈 **SIH 2025 Runner-up**
+- ⚡ **JavaScript** — primary language for full-stack development (MERN)
+- 🧮 **C++** — primary language for Data Structures & Algorithms
+- 📘 **TypeScript** — used in React & Next.js projects
+- 🐍 **Python** — AI, Machine Learning & FastAPI
+- 🏗️ Building production-grade AI platforms · Passionate about **Backend Engineering** & **System Design**
 - 💼 Actively seeking a **Software Engineering Internship**
-- 🌱 Quick learner with a growth-first mindset
-- 📚 Passionate about **Backend Engineering**, **Open Source** & **System Design**
 
 <!-- DIVIDER -->
 <img src="./assets/divider.svg" width="100%"/>
@@ -75,77 +69,30 @@
 <!-- DIVIDER -->
 <img src="./assets/divider.svg" width="100%"/>
 
-## 🚧 Now Building
-
-<div align="center">
-
-| | |
-|:---:|:---|
-| 🇮🇳 **BharatRakshak AI** | ![Status](https://img.shields.io/badge/Status-In_Development-FFB800?style=flat-square&labelColor=0A0A0F) |
-| | AI-powered Disaster Early Warning & Emergency Response Platform for India |
-| | `JavaScript` · `Next.js` · `FastAPI` · `MongoDB` · `AI` |
-
-</div>
-
-<!-- DIVIDER -->
-<img src="./assets/divider.svg" width="100%"/>
-
-## 🔭 Current Focus
-
-| Area | Status |
-|:---|:---|
-| 🏗️ Full Stack Development | ![Active](https://img.shields.io/badge/-Active-00FF88?style=flat-square&labelColor=0A0A0F) |
-| 🤖 Artificial Intelligence & ML | ![Active](https://img.shields.io/badge/-Active-00FF88?style=flat-square&labelColor=0A0A0F) |
-| ⚙️ Backend Engineering | ![Active](https://img.shields.io/badge/-Active-00FF88?style=flat-square&labelColor=0A0A0F) |
-| 📐 System Design | ![Learning](https://img.shields.io/badge/-Learning-00C9FF?style=flat-square&labelColor=0A0A0F) |
-| 🌍 Open Source | ![Contributing](https://img.shields.io/badge/-Contributing-7B2FFF?style=flat-square&labelColor=0A0A0F) |
-
-<!-- DIVIDER -->
-<img src="./assets/divider.svg" width="100%"/>
-
-## ⭐ Featured Work
-
-<div align="center">
-
-| | Project | Status | Description |
-|:---:|:---|:---:|:---|
-| 🇮🇳 | **BharatRakshak AI** | ![In Dev](https://img.shields.io/badge/-🚧_In_Development-FFB800?style=flat-square&labelColor=0A0A0F) | AI-powered Disaster Early Warning Platform |
-| 🚦 | **Traffic Intelligence Platform** | ![Live](https://img.shields.io/badge/-✅_Live-00FF88?style=flat-square&labelColor=0A0A0F) | AI-powered Traffic Intelligence for Bengaluru |
-| 🌾 | **KrishiMitra AI** | ![Live](https://img.shields.io/badge/-✅_Live-00FF88?style=flat-square&labelColor=0A0A0F) | AI-powered Smart Agriculture Platform |
-
-</div>
-
-<!-- DIVIDER -->
-<img src="./assets/divider.svg" width="100%"/>
-
 ## 🚀 Featured Projects
 
 <div align="center">
 <img src="./assets/projects.svg" width="100%" alt="Featured Projects"/>
 </div>
 
-<br/>
-
 ### 🇮🇳 BharatRakshak AI — *Priority #1*
 
 > AI-powered Disaster Early Warning and Emergency Response Platform for India. Real-time alerts, rescue coordination, and predictive disaster intelligence.
 
-**Tech:** `JavaScript` · `TypeScript` · `Next.js` · `FastAPI` · `MongoDB` · `AI`
+**Tech:** `TypeScript` · `Next.js` · `FastAPI` · `MongoDB` · `AI`
 
 ![Status](https://img.shields.io/badge/Status-🚧_Under_Development-FFB800?style=for-the-badge&labelColor=0A0A0F)
-
 [![Code](https://img.shields.io/badge/Code-00C9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/bharatrakshak-ai)
 
 ---
 
 ### 🚦 Traffic Intelligence Platform — *Priority #2*
 
-> AI-powered Traffic Intelligence Platform for Bengaluru featuring Demand Forecasting, Incident Intelligence, Risk Scoring, Hotspot Detection, Resource Allocation, and Analytics Dashboard.
+> AI-powered Traffic Intelligence for Bengaluru — Demand Forecasting, Incident Intelligence, Risk Scoring, Hotspot Detection, and Analytics Dashboard.
 
-**Tech:** `JavaScript` · `React` · `FastAPI` · `CatBoost` · `Machine Learning`
+**Tech:** `TypeScript` · `React` · `FastAPI` · `CatBoost` · `Machine Learning`
 
 ![Status](https://img.shields.io/badge/Status-✅_Live-00FF88?style=for-the-badge&labelColor=0A0A0F)
-
 [![Code](https://img.shields.io/badge/Code-00C9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/traffic-intelligence-platform)
 
 ---
@@ -154,64 +101,11 @@
 
 > AI-powered Smart Agriculture Platform helping Indian farmers with intelligent insights and recommendations.
 
-![Status](https://img.shields.io/badge/Status-✅_Live-00FF88?style=for-the-badge&labelColor=0A0A0F)
+**Tech:** `HTML` · `CSS` · `JavaScript` · `AI`
 
+![Status](https://img.shields.io/badge/Status-✅_Live-00FF88?style=for-the-badge&labelColor=0A0A0F)
 [![Code](https://img.shields.io/badge/Code-00C9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/KrishiMitra-AI) &nbsp;
 [![Live Demo](https://img.shields.io/badge/Live_Demo-00FF88?style=for-the-badge&logo=vercel&logoColor=white)](https://krishi-mitra-ai-nu.vercel.app/)
-
----
-
-<div align="center">
-
-#### 📌 Repository Cards
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-[![BharatRakshak AI](https://img.shields.io/badge/🇮🇳_BharatRakshak_AI-00C9FF?style=for-the-badge&logoColor=white)](https://github.com/ChandraBihariDas/bharatrakshak-ai)
-
-AI-powered Disaster Early Warning & Emergency Response Platform
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-[![View Code](https://img.shields.io/badge/View_Code-0A0A0F?style=flat-square&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/bharatrakshak-ai)
-
-</td>
-<td align="center" width="33%">
-
-[![Traffic Intelligence](https://img.shields.io/badge/🚦_Traffic_Intelligence-00C9FF?style=for-the-badge&logoColor=white)](https://github.com/ChandraBihariDas/traffic-intelligence-platform)
-
-AI-powered Traffic Intelligence for Bengaluru
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![CatBoost](https://img.shields.io/badge/CatBoost-FF6F00?style=flat-square&logoColor=white)
-
-[![View Code](https://img.shields.io/badge/View_Code-0A0A0F?style=flat-square&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/traffic-intelligence-platform)
-
-</td>
-<td align="center" width="33%">
-
-[![KrishiMitra AI](https://img.shields.io/badge/🌾_KrishiMitra_AI-00C9FF?style=for-the-badge&logoColor=white)](https://github.com/ChandraBihariDas/KrishiMitra-AI)
-
-AI-powered Smart Agriculture Platform
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![AI](https://img.shields.io/badge/AI-7B2FFF?style=flat-square&logoColor=white)
-
-[![View Code](https://img.shields.io/badge/View_Code-0A0A0F?style=flat-square&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/KrishiMitra-AI) [![Live Demo](https://img.shields.io/badge/Live_Demo-00FF88?style=flat-square&logo=vercel&logoColor=white)](https://krishi-mitra-ai-nu.vercel.app/)
-
-</td>
-</tr>
-</table>
-
-</div>
 
 <!-- DIVIDER -->
 <img src="./assets/divider.svg" width="100%"/>
@@ -222,14 +116,10 @@ AI-powered Smart Agriculture Platform
 <img src="./assets/tech-icons.svg" width="100%" alt="Tech Stack"/>
 </div>
 
-<br/>
-
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=js,cpp,py,ts,react,nextjs,angular,nodejs,express,tailwind,bootstrap,flutter&theme=dark&perline=6" />
-
 <br/>
-
 <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,fastapi,vercel,git,github,figma,docker,npm&theme=dark&perline=5" />
 
 </div>
@@ -281,14 +171,9 @@ AI-powered Smart Agriculture Platform
 
 </details>
 
-<!-- DIVIDER -->
-<img src="./assets/divider.svg" width="100%"/>
-
-## 🤖 Artificial Intelligence
-
-> Every flagship project is AI-powered. Here's the intelligence stack:
-
-<div align="center">
+<details>
+<summary><b>🤖 AI & Intelligence Stack</b></summary>
+<br>
 
 | Domain | Technologies |
 |:---|:---|
@@ -299,7 +184,7 @@ AI-powered Smart Agriculture Platform
 | Data Intelligence | Risk Scoring · Demand Forecasting · Hotspot Detection |
 | LLMs & Prompting | Prompt Engineering · AI Integration |
 
-</div>
+</details>
 
 <!-- DIVIDER -->
 <img src="./assets/divider.svg" width="100%"/>
@@ -310,35 +195,23 @@ AI-powered Smart Agriculture Platform
 
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=ChandraBihariDas&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7&ring_color=00C9FF" />
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChandraBihariDas&layout=compact&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&text_color=E4E4E7&langs_count=8" />
-
 <br/>
-
 <img src="https://streak-stats.demolab.com/?user=ChandraBihariDas&hide_border=true&background=0A0A0F&ring=00C9FF&fire=FF006E&currStreakLabel=00C9FF&sideLabels=E4E4E7&currStreakNum=E4E4E7&sideNums=E4E4E7&dates=71717A" />
-
 <br/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChandraBihariDas&hide_border=true&bg_color=0A0A0F&color=E4E4E7&line=00C9FF&point=7B2FFF&area=true&area_color=00C9FF" width="95%"/>
-
-<br/><br/>
-
+<br/>
 <img src="https://github-profile-trophy.vercel.app/?username=ChandraBihariDas&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" />
 
 </div>
 
-<!-- DIVIDER -->
-<img src="./assets/divider.svg" width="100%"/>
-
-## 📈 GitHub Portfolio
+### 📸 Developer Snapshot
 
 <div align="center">
 
 | Metric | Value |
 |:---|:---:|
-| 🗂️ Repositories | ![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/ChandraBihariDas&query=$.public_repos&style=flat-square&label=&color=00C9FF&labelColor=0A0A0F) |
-| ⭐ Stars Earned | ![Stars](https://img.shields.io/github/stars/ChandraBihariDas?affiliations=OWNER&style=flat-square&color=FFB800&labelColor=0A0A0F&label=) |
-| 👥 Followers | ![Followers](https://img.shields.io/github/followers/ChandraBihariDas?style=flat-square&color=7B2FFF&labelColor=0A0A0F&label=) |
-| 💻 Primary Dev Language | ![Language](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| 🧮 Primary DSA Language | ![Language](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) |
+| 💻 Primary Dev Language | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| 🧮 Primary DSA Language | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) |
 | 🎯 Current Focus | ![Focus](https://img.shields.io/badge/-AI_×_Full_Stack-FF006E?style=flat-square&labelColor=0A0A0F) |
 
 </div>
@@ -352,9 +225,6 @@ AI-powered Smart Agriculture Platform
 <img src="./assets/timeline.svg" width="800" alt="Developer Journey & Achievements Timeline"/>
 </div>
 
-<!-- DIVIDER -->
-<img src="./assets/divider.svg" width="100%"/>
-
 ## 🏆 Hackathons & Achievements
 
 | Year | Event | Result |
@@ -365,7 +235,7 @@ AI-powered Smart Agriculture Platform
 | 2026 | ✈️ **IIT Indore × HAL Aerothon 2026** | **Project** — Aerospace engineering challenge |
 | 2026 | 🌍 **Google Vibe2Ship — LifeSaver AI** | **Project** — Google developer program |
 
-> 💡 *Only verified, substantiated achievements are listed. No fabricated entries.*
+> 💡 *Only verified, substantiated achievements are listed.*
 
 <!-- DIVIDER -->
 <img src="./assets/divider.svg" width="100%"/>
@@ -374,9 +244,9 @@ AI-powered Smart Agriculture Platform
 
 <div align="center">
 
-> Currently expanding open source contributions.
+> I enjoy contributing to practical developer tools, AI applications, and open-source projects. My goal is to become an active contributor to impactful communities while continuously improving my engineering skills.
 
-<!-- Contribution Snake — requires GitHub Actions setup -->
+<!-- Contribution Snake -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChandraBihariDas/ChandraBihariDas/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChandraBihariDas/ChandraBihariDas/output/github-snake.svg" />
@@ -433,17 +303,6 @@ module.exports = developer; // Ship it. 🚀
 <!-- DIVIDER -->
 <img src="./assets/divider.svg" width="100%"/>
 
-## 💬 Quote
-
-<div align="center">
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true&quote=The+best+way+to+predict+the+future+is+to+build+it.&author=Alan+Kay)](https://github.com/piyushsuthar/github-readme-quotes)
-
-</div>
-
-<!-- DIVIDER -->
-<img src="./assets/divider.svg" width="100%"/>
-
 ## 🤝 Connect
 
 <div align="center">
@@ -452,8 +311,6 @@ module.exports = developer; // Ship it. 🚀
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chandrabihari2005@gmail.com)
 [![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@utkarshtripathi)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChandraBihariDas)
-
-<br/>
 
 | | |
 |:---|:---|
@@ -485,11 +342,7 @@ JavaScript is the language of the web. It powers everything from frontend intera
 
 <img src="./assets/footer.svg" width="100%" alt="Footer"/>
 
-<br/>
-
-⭐ **If you find my work useful, a star on my repos goes a long way.**
-
-*Thanks for stopping by — always happy to connect and build something new.* 🚀
+⭐ **Star my repos if you find them useful** · *Always happy to connect and build something new.* 🚀
 
 <img src="./assets/logo.svg" width="40" alt="UT Logo"/>
 
