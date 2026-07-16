@@ -165,15 +165,9 @@
 
 #### 📌 Repository Cards
 
-<a href="https://github.com/ChandraBihariDas/bharatrakshak-ai">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=bharatrakshak-ai&theme=radical&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7" alt="BharatRakshak AI"/>
-</a>
-<a href="https://github.com/ChandraBihariDas/traffic-intelligence-platform">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=traffic-intelligence-platform&theme=radical&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7" alt="Traffic Intelligence Platform"/>
-</a>
-<a href="https://github.com/ChandraBihariDas/KrishiMitra-AI">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=KrishiMitra-AI&theme=radical&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7" alt="KrishiMitra AI"/>
-</a>
+[![BharatRakshak AI](https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=bharatrakshak-ai&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7&cache_seconds=86400)](https://github.com/ChandraBihariDas/bharatrakshak-ai)
+[![Traffic Intelligence Platform](https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=traffic-intelligence-platform&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7&cache_seconds=86400)](https://github.com/ChandraBihariDas/traffic-intelligence-platform)
+[![KrishiMitra AI](https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=KrishiMitra-AI&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7&cache_seconds=86400)](https://github.com/ChandraBihariDas/KrishiMitra-AI)
 
 </div>
 
