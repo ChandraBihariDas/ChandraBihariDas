@@ -1,0 +1,25 @@
+name: Profile Update
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"  # Weekly on Sunday at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update Profile Metadata
+        run: |
+          echo "Profile last updated: $(date -u '+%Y-%m-%d %H:%M UTC')" > .last-updated
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .last-updated
+          git diff --staged --quiet || git commit -m "chore: weekly profile update"
+          git push || true

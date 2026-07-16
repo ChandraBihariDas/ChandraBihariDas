@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40">
+  <defs>
+    <linearGradient id="bgFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C9FF" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#00C9FF" stop-opacity="0.04"/>
+      <stop offset="50%" stop-color="#7B2FFF" stop-opacity="0.03"/>
+      <stop offset="85%" stop-color="#00C9FF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#00C9FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="dotGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00C9FF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00C9FF" stop-opacity="0"/>
+    </radialGradient>
+    <symbol id="dot" viewBox="0 0 4 4">
+      <circle cx="2" cy="2" r="0.6" fill="#E4E4E7" opacity="0.06"/>
+    </symbol>
+  </defs>
+
+  <!-- Ambient glow -->
+  <rect width="1200" height="40" fill="url(#bgFade)"/>
+
+  <!-- Dot grid row 1 -->
+  <g>
+    <use href="#dot" x="58" y="8" width="4" height="4"/>
+    <use href="#dot" x="118" y="8" width="4" height="4"/>
+    <use href="#dot" x="178" y="8" width="4" height="4"/>
+    <use href="#dot" x="238" y="8" width="4" height="4"/>
+    <use href="#dot" x="298" y="8" width="4" height="4"/>
+    <use href="#dot" x="358" y="8" width="4" height="4"/>
+    <use href="#dot" x="418" y="8" width="4" height="4"/>
+    <use href="#dot" x="478" y="8" width="4" height="4"/>
+    <use href="#dot" x="538" y="8" width="4" height="4"/>
+    <use href="#dot" x="598" y="8" width="4" height="4"/>
+    <use href="#dot" x="658" y="8" width="4" height="4"/>
+    <use href="#dot" x="718" y="8" width="4" height="4"/>
+    <use href="#dot" x="778" y="8" width="4" height="4"/>
+    <use href="#dot" x="838" y="8" width="4" height="4"/>
+    <use href="#dot" x="898" y="8" width="4" height="4"/>
+    <use href="#dot" x="958" y="8" width="4" height="4"/>
+    <use href="#dot" x="1018" y="8" width="4" height="4"/>
+    <use href="#dot" x="1078" y="8" width="4" height="4"/>
+    <use href="#dot" x="1138" y="8" width="4" height="4"/>
+  </g>
+  <!-- Dot grid row 2 -->
+  <g>
+    <use href="#dot" x="88" y="28" width="4" height="4"/>
+    <use href="#dot" x="148" y="28" width="4" height="4"/>
+    <use href="#dot" x="208" y="28" width="4" height="4"/>
+    <use href="#dot" x="268" y="28" width="4" height="4"/>
+    <use href="#dot" x="328" y="28" width="4" height="4"/>
+    <use href="#dot" x="388" y="28" width="4" height="4"/>
+    <use href="#dot" x="448" y="28" width="4" height="4"/>
+    <use href="#dot" x="508" y="28" width="4" height="4"/>
+    <use href="#dot" x="568" y="28" width="4" height="4"/>
+    <use href="#dot" x="628" y="28" width="4" height="4"/>
+    <use href="#dot" x="688" y="28" width="4" height="4"/>
+    <use href="#dot" x="748" y="28" width="4" height="4"/>
+    <use href="#dot" x="808" y="28" width="4" height="4"/>
+    <use href="#dot" x="868" y="28" width="4" height="4"/>
+    <use href="#dot" x="928" y="28" width="4" height="4"/>
+    <use href="#dot" x="988" y="28" width="4" height="4"/>
+    <use href="#dot" x="1048" y="28" width="4" height="4"/>
+    <use href="#dot" x="1108" y="28" width="4" height="4"/>
+  </g>
+</svg>

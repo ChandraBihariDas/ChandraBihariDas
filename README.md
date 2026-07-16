@@ -1,295 +1,460 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:00C9FF&height=280&section=header&text=Utkarsh+Tripathi&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full+Stack+Developer+%C2%B7+MERN+Stack+%C2%B7+B.Tech+CSE&descAlignY=55&descSize=18&descColor=e0f7ff" width="100%"/>
+<!-- HERO BANNER -->
+<img src="./assets/banner.svg" width="100%" alt="Utkarsh Tripathi — JavaScript Full Stack Developer · AI Engineer"/>
 
-<a href="#-about-me">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=23&duration=3000&pause=900&color=00C9FF&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;MERN+Stack+Developer;B.Tech+CSE+Student;Open+Source+Enthusiast;Problem+Solver;Always+Learning" alt="Typing SVG" />
+<!-- TYPING SVG -->
+<a href="#-about">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00C9FF&center=true&vCenter=true&multiline=false&width=700&lines=JavaScript+Full+Stack+Developer;MERN+Stack+Developer;AI+Engineer;Backend+Developer;Open+Source+Enthusiast;Building+BharatRakshak+AI+%F0%9F%87%AE%F0%9F%87%B3;Always+Learning+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
+<br/>
+
+<!-- SOCIAL BADGES -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/utkarsh-tripathi-a22a97387)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chandrabihari2005@gmail.com)
 [![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@utkarshtripathi)
 ![Profile Views](https://komarev.com/ghpvc/?username=ChandraBihariDas&style=for-the-badge&color=00C9FF&label=PROFILE+VIEWS)
 
-**Quick Nav:** [About](#-about-me) · [Tech Stack](#-tech-universe) · [Projects](#-featured-projects) · [Hackathons](#-hackathon-journey) · [GitHub Stats](#-github-analytics) · [Connect](#-connect-with-me)
+<!-- QUICK NAV -->
+**[About](#-about) · [Dashboard](#-developer-dashboard) · [Projects](#-featured-projects) · [Tech Stack](#-tech-stack) · [AI/ML](#-artificial-intelligence) · [GitHub Stats](#-github-analytics) · [Achievements](#-hackathons--achievements) · [Connect](#-connect)**
 
 </div>
 
-<br>
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
 
-## 🧠 About Me
+## 🧠 About
 
-> *"Quick learner, building real things, one commit at a time."*
+<div align="center">
+<img src="./assets/profile-card.svg" width="480" alt="Developer Profile Card"/>
+</div>
 
-- 🎓 B.Tech in **Computer Science Engineering** @ **LNCT Bhopal**
-- ⚛️ Focused on the **MERN Stack** — MongoDB · Express.js · React.js · Node.js
-- 🌐 Comfortable across the stack — frontend **and** backend development
-- 🗄️ Database experience with **MongoDB** & **MySQL**
-- 🔭 Enthusiastic about building **real-world, production-style projects**
-- 🌱 Quick learner with a strong drive to improve, one project at a time
-- 💼 Actively looking for a **paid internship** to gain industry experience
-- 🤝 Open to collaborating with development teams on practical projects
-- 📚 Believer in continuous learning and **open-source contribution**
-- 🗣️ Strong communicator with a positive, growth-first mindset
+<br/>
 
-<br>
+> *"Building AI-powered solutions for real-world problems — one commit at a time."*
 
-## 🧰 Tech Universe
+- 🎓 **B.Tech in Computer Science Engineering** @ **LNCT Bhopal**
+- ⚡ **JavaScript** is my primary language for full-stack development
+- 🧮 **C++** is my primary language for Data Structures & Algorithms
+- 📘 **TypeScript** is used in modern React & Next.js projects
+- 🐍 **Python** is used for AI, Machine Learning & FastAPI
+- 🤖 **MERN Stack Developer** & **AI Engineer**
+- 🏗️ Building production-grade platforms that solve real problems
+- 🥈 **Smart India Hackathon 2025 Runner-up**
+- 💼 Actively seeking a **Software Engineering Internship**
+- 🌱 Quick learner with a growth-first mindset
+- 📚 Passionate about **Backend Engineering**, **Open Source** & **System Design**
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
+
+## 💻 Developer Dashboard
+
+```
+╭──────────────────────────────────────────────────╮
+│                                                  │
+│   Developer Dashboard              v3.0          │
+│                                                  │
+├──────────────────────────────────────────────────┤
+│                                                  │
+│   Name       : Utkarsh Tripathi                  │
+│   Role       : JavaScript Full Stack Developer   │
+│   Primary Dev: JavaScript                        │
+│   Primary DSA: C++                               │
+│   Frontend   : React · Next.js                   │
+│   Backend    : Node.js · Express · FastAPI       │
+│   Database   : MongoDB · MySQL                   │
+│   AI         : Python                            │
+│   Status     : Open for Internship               │
+│   Building   : BharatRakshak AI 🇮🇳              │
+│                                                  │
+╰──────────────────────────────────────────────────╯
+```
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
+
+## 🚧 Now Building
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cpp,js,py,react,nextjs,angular,bootstrap,nodejs,express,mongodb,mysql,firebase,vercel,figma,git,github&theme=dark&perline=8" />
+| | |
+|:---:|:---|
+| 🇮🇳 **BharatRakshak AI** | ![Status](https://img.shields.io/badge/Status-In_Development-FFB800?style=flat-square&labelColor=0A0A0F) |
+| | AI-powered Disaster Early Warning & Emergency Response Platform for India |
+| | `JavaScript` · `Next.js` · `FastAPI` · `MongoDB` · `AI` |
 
 </div>
 
-<details open>
-<summary><b>📂 Full breakdown by category</b></summary>
-<br>
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
 
-**Languages**
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+## 🔭 Current Focus
 
-**Frontend**
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Angular](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+| Area | Status |
+|:---|:---|
+| 🏗️ Full Stack Development | ![Active](https://img.shields.io/badge/-Active-00FF88?style=flat-square&labelColor=0A0A0F) |
+| 🤖 Artificial Intelligence & ML | ![Active](https://img.shields.io/badge/-Active-00FF88?style=flat-square&labelColor=0A0A0F) |
+| ⚙️ Backend Engineering | ![Active](https://img.shields.io/badge/-Active-00FF88?style=flat-square&labelColor=0A0A0F) |
+| 📐 System Design | ![Learning](https://img.shields.io/badge/-Learning-00C9FF?style=flat-square&labelColor=0A0A0F) |
+| 🌍 Open Source | ![Contributing](https://img.shields.io/badge/-Contributing-7B2FFF?style=flat-square&labelColor=0A0A0F) |
 
-**Backend**
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=for-the-badge&logo=ejs&logoColor=black) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%23BBDEAD) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
 
-**Databases**
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+## ⭐ Featured Work
 
-**Cloud, Hosting & Mobile**
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%2346E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+<div align="center">
 
-**Data & AI Tooling**
-![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+| | Project | Status | Description |
+|:---:|:---|:---:|:---|
+| 🇮🇳 | **BharatRakshak AI** | ![In Dev](https://img.shields.io/badge/-🚧_In_Development-FFB800?style=flat-square&labelColor=0A0A0F) | AI-powered Disaster Early Warning Platform |
+| 🚦 | **Traffic Intelligence Platform** | ![Live](https://img.shields.io/badge/-✅_Live-00FF88?style=flat-square&labelColor=0A0A0F) | AI-powered Traffic Intelligence for Bengaluru |
+| 🌾 | **KrishiMitra AI** | ![Live](https://img.shields.io/badge/-✅_Live-00FF88?style=flat-square&labelColor=0A0A0F) | AI-powered Smart Agriculture Platform |
 
-**Design & Tools**
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+</div>
 
-</details>
-
-<br>
-
-## 🖥️ Dev Terminal
-
-```bash
-utkarsh@dev:~$ whoami
-> B.Tech CSE student @ LNCT Bhopal | MERN Stack Developer
-
-utkarsh@dev:~$ cat core_skills.txt
-> JavaScript · Python · C++ · React · Node.js · Express · MongoDB · MySQL
-
-utkarsh@dev:~$ echo $CURRENTLY_LEARNING
-> Advanced DSA · System Design · Cloud Deployment
-
-utkarsh@dev:~$ echo $LOOKING_FOR
-> A paid internship to build real things with a real team
-
-utkarsh@dev:~$ ping future --goal
-> Reply from future.dev: shipping something great, stay tuned 🚀
-```
-
-<br>
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
 
 ## 🚀 Featured Projects
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+<div align="center">
+<img src="./assets/projects.svg" width="100%" alt="Featured Projects"/>
+</div>
 
-### 🔹 [Project Name Here]
-Short one-line description of the problem this project solves.
+<br/>
 
-**Stack:** React · Node.js · Express · MongoDB
-**Highlights:**
-- ✅ Key feature one
-- ✅ Key feature two
-- ✅ Key feature three
+### 🇮🇳 BharatRakshak AI — *Priority #1*
 
-[🔗 Code](#) &nbsp;·&nbsp; [🌐 Live Demo](#)
+> AI-powered Disaster Early Warning and Emergency Response Platform for India. Real-time alerts, rescue coordination, and predictive disaster intelligence.
 
-</td>
-<td width="50%" valign="top">
+**Tech:** `JavaScript` · `TypeScript` · `Next.js` · `FastAPI` · `MongoDB` · `AI`
 
-### 🔹 [Project Name Here]
-Short one-line description of the problem this project solves.
+![Status](https://img.shields.io/badge/Status-🚧_Under_Development-FFB800?style=for-the-badge&labelColor=0A0A0F)
 
-**Stack:** Next.js · Firebase · Tailwind CSS
-**Highlights:**
-- ✅ Key feature one
-- ✅ Key feature two
-- ✅ Key feature three
+[![Code](https://img.shields.io/badge/Code-00C9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/bharatrakshak-ai)
 
-[🔗 Code](#) &nbsp;·&nbsp; [🌐 Live Demo](#)
+---
 
-</td>
-</tr>
-</table>
+### 🚦 Traffic Intelligence Platform — *Priority #2*
 
-> 💡 *Placeholders — swap in your real projects: name, one-line pitch, tech stack, and links to code / live demo.*
+> AI-powered Traffic Intelligence Platform for Bengaluru featuring Demand Forecasting, Incident Intelligence, Risk Scoring, Hotspot Detection, Resource Allocation, and Analytics Dashboard.
 
-<br>
+**Tech:** `JavaScript` · `React` · `FastAPI` · `CatBoost` · `Machine Learning`
 
-## 🏆 Hackathon Journey
+![Status](https://img.shields.io/badge/Status-✅_Live-00FF88?style=for-the-badge&labelColor=0A0A0F)
+
+[![Code](https://img.shields.io/badge/Code-00C9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/traffic-intelligence-platform)
+
+---
+
+### 🌾 KrishiMitra AI — *Priority #3*
+
+> AI-powered Smart Agriculture Platform helping Indian farmers with intelligent insights and recommendations.
+
+![Status](https://img.shields.io/badge/Status-✅_Live-00FF88?style=for-the-badge&labelColor=0A0A0F)
+
+[![Code](https://img.shields.io/badge/Code-00C9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/KrishiMitra-AI) &nbsp;
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00FF88?style=for-the-badge&logo=vercel&logoColor=white)](https://krishi-mitra-ai-nu.vercel.app/)
+
+---
+
+<div align="center">
+
+#### 📌 Repository Cards
+
+<a href="https://github.com/ChandraBihariDas/bharatrakshak-ai">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=bharatrakshak-ai&theme=radical&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7" alt="BharatRakshak AI"/>
+</a>
+<a href="https://github.com/ChandraBihariDas/traffic-intelligence-platform">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=traffic-intelligence-platform&theme=radical&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7" alt="Traffic Intelligence Platform"/>
+</a>
+<a href="https://github.com/ChandraBihariDas/KrishiMitra-AI">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=KrishiMitra-AI&theme=radical&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7" alt="KrishiMitra AI"/>
+</a>
+
+</div>
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
+
+## 🧰 Tech Stack
+
+<div align="center">
+<img src="./assets/tech-icons.svg" width="100%" alt="Tech Stack"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=js,cpp,py,ts,react,nextjs,angular,nodejs,express,tailwind,bootstrap,flutter&theme=dark&perline=6" />
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,fastapi,vercel,git,github,figma,docker,npm&theme=dark&perline=5" />
+
+</div>
 
 <details>
-<summary><b>📍 Click to expand the timeline</b></summary>
+<summary><b>📂 Full breakdown by category</b></summary>
 <br>
 
-```text
-[Add Date]  ──●── [Hackathon Name] — what you built / what you learned
-[Add Date]  ──●── [Hackathon Name] — what you built / what you learned
-  Next      ──●── Aiming to compete at national-level hackathons
-```
+**Primary Languages**
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Frontend**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+
+**Backend**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+
+**Databases**
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+**Cloud & Tools**
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+
+**AI & Data Science**
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
 
 </details>
 
-> 💡 *Placeholder timeline — fill in as you compete: hackathon name, date, and one line on the outcome or lesson.*
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
 
-<br>
+## 🤖 Artificial Intelligence
 
-## 🛤️ Developer Journey
+> Every flagship project is AI-powered. Here's the intelligence stack:
 
-- 🏫 **Now** — Pursuing B.Tech in Computer Science Engineering @ LNCT Bhopal
-- 💻 **Learning** — MERN stack, DSA, and full-stack system design
-- 🛠️ **Building** — Real-world, production-style projects to sharpen practical skills
-- 🌍 **Exploring** — Open-source contribution & team-based development
-- 🎯 **Next Goal** — Landing a paid internship to gain industry experience
+<div align="center">
 
-<br>
+| Domain | Technologies |
+|:---|:---|
+| Machine Learning | CatBoost · Scikit-learn · Predictive Analytics |
+| Data Science | NumPy · Pandas · Matplotlib · Anaconda |
+| Backend AI | FastAPI · Python · REST APIs |
+| Computer Vision | Image Processing · Pattern Recognition |
+| Data Intelligence | Risk Scoring · Demand Forecasting · Hotspot Detection |
+| LLMs & Prompting | Prompt Engineering · AI Integration |
+
+</div>
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
 
 ## 📊 GitHub Analytics
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.shion.dev/api?username=ChandraBihariDas&show_icons=true&theme=radical&hide_border=true&count_private=false&include_all_commits=false" />
-<img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=ChandraBihariDas&layout=compact&theme=radical&hide_border=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=ChandraBihariDas&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7&ring_color=00C9FF" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChandraBihariDas&layout=compact&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&text_color=E4E4E7&langs_count=8" />
 
-<br>
+<br/>
 
-<img src="https://streak-stats.demolab.com/?user=ChandraBihariDas&theme=radical&hide_border=true" />
+<img src="https://streak-stats.demolab.com/?user=ChandraBihariDas&hide_border=true&background=0A0A0F&ring=00C9FF&fire=FF006E&currStreakLabel=00C9FF&sideLabels=E4E4E7&currStreakNum=E4E4E7&sideNums=E4E4E7&dates=71717A" />
 
-<br>
+<br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ChandraBihariDas&theme=react-dark&hide_border=true&area=true" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ChandraBihariDas&hide_border=true&bg_color=0A0A0F&color=E4E4E7&line=00C9FF&point=7B2FFF&area=true&area_color=00C9FF" width="95%"/>
 
-<br><br>
+<br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=ChandraBihariDas&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
+<img src="https://github-profile-trophy.vercel.app/?username=ChandraBihariDas&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" />
 
 </div>
 
-<details>
-<summary><b>🐍 Contribution snake animation (one-time setup required)</b></summary>
-<br>
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
 
-This part can't "just work" from the README alone — GitHub has to generate the image first. Two steps, about 2 minutes:
+## 📈 GitHub Portfolio
 
-**1. Add this embed** wherever you'd like the snake to appear:
+<div align="center">
 
-```markdown
+| Metric | Value |
+|:---|:---:|
+| 🗂️ Repositories | ![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/ChandraBihariDas&query=$.public_repos&style=flat-square&label=&color=00C9FF&labelColor=0A0A0F) |
+| ⭐ Stars Earned | ![Stars](https://img.shields.io/github/stars/ChandraBihariDas?affiliations=OWNER&style=flat-square&color=FFB800&labelColor=0A0A0F&label=) |
+| 👥 Followers | ![Followers](https://img.shields.io/github/followers/ChandraBihariDas?style=flat-square&color=7B2FFF&labelColor=0A0A0F&label=) |
+| 💻 Primary Dev Language | ![Language](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| 🧮 Primary DSA Language | ![Language](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) |
+| 🎯 Current Focus | ![Focus](https://img.shields.io/badge/-AI_×_Full_Stack-FF006E?style=flat-square&labelColor=0A0A0F) |
+
+</div>
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
+
+## 🛤️ Developer Timeline
+
+<div align="center">
+<img src="./assets/timeline.svg" width="800" alt="Developer Journey & Achievements Timeline"/>
+</div>
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
+
+## 🏆 Hackathons & Achievements
+
+| Year | Event | Result |
+|:---:|:---|:---|
+| 2025 | 🥈 **Smart India Hackathon 2025** | **Runner-up** — National-level hackathon by Government of India |
+| 2025 | 🚦 **GridLock Hackathon 2.0** | **Participant** — Traffic intelligence challenge |
+| 2026 | 🇮🇳 **Samsung Solve for Tomorrow 2026** | **Project** — Samsung Innovation Hackathon |
+| 2026 | ✈️ **IIT Indore × HAL Aerothon 2026** | **Project** — Aerospace engineering challenge |
+| 2025 | 🌍 **Google Vibe2Ship — LifeSaver AI** | **Project** — Google developer program |
+
+> 💡 *Only verified, substantiated achievements are listed. No fabricated entries.*
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
+
+## 🌍 Open Source
+
+<div align="center">
+
+> Currently expanding open source contributions.
+
+<!-- Contribution Snake — requires GitHub Actions setup -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChandraBihariDas/ChandraBihariDas/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChandraBihariDas/ChandraBihariDas/output/github-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/ChandraBihariDas/ChandraBihariDas/output/github-snake.svg" />
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/ChandraBihariDas/ChandraBihariDas/output/github-snake.svg" />
 </picture>
+
+</div>
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
+
+## 🖥️ Developer Terminal
+
+```javascript
+// utkarsh.config.js
+
+const developer = {
+  name: "Utkarsh Tripathi",
+  role: "JavaScript Full Stack Developer",
+  identity: "AI Engineer",
+  education: "B.Tech CSE — LNCT Bhopal",
+
+  languages: {
+    primaryDev: "JavaScript",    // Full-stack development
+    primaryDSA: "C++",           // Data Structures & Algorithms
+    secondary: "TypeScript",     // React & Next.js projects
+    ai: "Python",                // AI, ML, FastAPI
+  },
+
+  stack: {
+    frontend: ["React", "Next.js", "Angular", "TailwindCSS"],
+    backend: ["Node.js", "Express", "FastAPI"],
+    databases: ["MongoDB", "MySQL", "Firebase"],
+    ai: ["CatBoost", "NumPy", "Pandas", "Matplotlib"],
+  },
+
+  projects: {
+    flagship: "BharatRakshak AI 🇮🇳",
+    live: ["Traffic Intelligence Platform", "KrishiMitra AI"],
+  },
+
+  achievements: {
+    "SIH 2025": "Runner-up 🥈",
+    hackathons: 5,
+  },
+
+  status: "Available for Software Engineering Internship",
+  motto: "Building AI-powered solutions for real-world problems",
+};
+
+module.exports = developer; // Ship it. 🚀
 ```
 
-**2. Create `.github/workflows/snake.yml`** in your `ChandraBihariDas/ChandraBihariDas` repo with:
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
 
-```yaml
-name: generate snake animation
+## 💬 Quote
 
-on:
-  schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
-  push:
-    branches: [ main ]
+<div align="center">
 
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: generate snake svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-      - name: push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true&quote=The+best+way+to+predict+the+future+is+to+build+it.&author=Alan+Kay)](https://github.com/piyushsuthar/github-readme-quotes)
 
-Commit it (or trigger it once via the "Run workflow" button), wait ~1 minute, and the snake will render.
+</div>
 
-</details>
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
 
-<br>
-
-## 🔭 Currently
-
-| | |
-|---|---|
-| 🔭 Working on | Real-world full-stack projects |
-| 🌱 Learning | Data Structures & Algorithms, System Design |
-| 👯 Open to collaborate on | MERN stack projects & hackathons |
-| 💬 Ask me about | React, Node.js, Express, MongoDB |
-| 📫 Reach me at | chandrabihari2005@gmail.com |
-
-<details>
-<summary>❓ What's my ideal internship?</summary>
-<br>
-A hands-on full-stack or backend role where I can learn from experienced engineers, ship real features, and grow fast.
-</details>
-
-<details>
-<summary>❓ Why open source?</summary>
-<br>
-It's the fastest way to learn from real codebases, get feedback from experienced developers, and give back to the tools I use every day.
-</details>
-
-<br>
-
-## 🤝 Connect With Me
+## 🤝 Connect
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/utkarsh-tripathi-a22a97387)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chandrabihari2005@gmail.com)
 [![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@utkarshtripathi)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](#)
-[![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChandraBihariDas)
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](#)
-[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](#)
-[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](#)
-[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](#)
+<br/>
+
+| | |
+|:---|:---|
+| 🔭 Working on | BharatRakshak AI — Disaster Response Platform |
+| 🌱 Learning | Advanced System Design · Cloud Architecture |
+| 👯 Collaborate on | AI-powered projects · Hackathons · Open Source |
+| 💬 Ask me about | JavaScript · React · Node.js · C++ · FastAPI · MongoDB |
+| 📫 Reach me at | chandrabihari2005@gmail.com |
 
 </div>
 
-> 💡 *Badges linking to `#` are placeholders — swap in your Portfolio, Resume, and competitive-programming profile links once ready.*
+<details>
+<summary>❓ What's my ideal internship?</summary>
+<br/>
+A hands-on full-stack or backend role where I can learn from experienced engineers, ship real features, and grow fast. I'm especially interested in teams building AI-powered products.
+</details>
 
-<br>
+<details>
+<summary>❓ Why JavaScript as primary?</summary>
+<br/>
+JavaScript is the language of the web. It powers everything from frontend interactions to full backend services via Node.js. I use JavaScript for the MERN stack and reach for TypeScript when a project benefits from static typing — especially in React and Next.js codebases. C++ handles my competitive programming and DSA needs.
+</details>
 
----
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="100%"/>
 
+<!-- FOOTER -->
 <div align="center">
 
-☕ **If you find my work useful, a star on my repos goes a long way.**
+<img src="./assets/footer.svg" width="100%" alt="Footer"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:2C5364,100:0F2027&height=150&section=footer" width="100%"/>
+<br/>
+
+⭐ **If you find my work useful, a star on my repos goes a long way.**
 
 *Thanks for stopping by — always happy to connect and build something new.* 🚀
+
+<img src="./assets/logo.svg" width="40" alt="UT Logo"/>
 
 </div>

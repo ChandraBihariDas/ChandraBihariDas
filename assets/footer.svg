@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
+  <defs>
+    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A0F"/>
+      <stop offset="50%" stop-color="#0D0D18"/>
+      <stop offset="100%" stop-color="#0A0A0F"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C9FF" stop-opacity="0.15"/>
+      <stop offset="33%" stop-color="#7B2FFF" stop-opacity="0.2"/>
+      <stop offset="66%" stop-color="#FF006E" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00C9FF" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="footerLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C9FF" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00C9FF" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#7B2FFF" stop-opacity="0.7"/>
+      <stop offset="70%" stop-color="#FF006E" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FF006E" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="footGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0
+                0 0.78 0 0 0
+                0 0 1 0 0
+                0 0 0 0.25 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="waveClip">
+      <path d="M0,60 Q150,20 300,50 T600,40 T900,55 T1200,35 L1200,200 L0,200 Z"/>
+    </clipPath>
+    <mask id="waveFade">
+      <rect width="1200" height="200" fill="white"/>
+      <rect width="1200" height="60" fill="black" opacity="0.3"/>
+    </mask>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="200" fill="url(#footerGrad)"/>
+
+  <!-- Top neon line -->
+  <rect x="0" y="0" width="1200" height="1.5" fill="url(#footerLine)"/>
+
+  <!-- Wave layer -->
+  <g clip-path="url(#waveClip)" mask="url(#waveFade)">
+    <rect width="1200" height="200" fill="url(#waveGrad)"/>
+    <!-- Wave line -->
+    <path d="M0,60 Q150,20 300,50 T600,40 T900,55 T1200,35"
+      fill="none" stroke="url(#footerLine)" stroke-width="1" opacity="0.4"/>
+  </g>
+
+  <!-- Second wave layer (offset) -->
+  <path d="M0,90 Q200,65 400,80 T800,70 T1200,85"
+    fill="none" stroke="#7B2FFF" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Dot grid in footer -->
+  <g opacity="0.04">
+    <circle cx="100" cy="140" r="0.8" fill="#E4E4E7"/>
+    <circle cx="200" cy="150" r="0.8" fill="#E4E4E7"/>
+    <circle cx="300" cy="135" r="0.8" fill="#E4E4E7"/>
+    <circle cx="400" cy="145" r="0.8" fill="#E4E4E7"/>
+    <circle cx="500" cy="138" r="0.8" fill="#E4E4E7"/>
+    <circle cx="600" cy="142" r="0.8" fill="#E4E4E7"/>
+    <circle cx="700" cy="148" r="0.8" fill="#E4E4E7"/>
+    <circle cx="800" cy="136" r="0.8" fill="#E4E4E7"/>
+    <circle cx="900" cy="144" r="0.8" fill="#E4E4E7"/>
+    <circle cx="1000" cy="140" r="0.8" fill="#E4E4E7"/>
+    <circle cx="1100" cy="146" r="0.8" fill="#E4E4E7"/>
+  </g>
+
+  <!-- Attribution text -->
+  <g filter="url(#footGlow)">
+    <text x="600" y="130" text-anchor="middle"
+      font-family="'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif"
+      font-size="16" fill="#71717A" letter-spacing="1">
+      Designed &amp; Built by
+    </text>
+    <text x="600" y="158" text-anchor="middle"
+      font-family="'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif"
+      font-size="22" font-weight="600" fill="#E4E4E7" letter-spacing="0.5">
+      Utkarsh Tripathi
+    </text>
+  </g>
+
+  <!-- Side accent marks -->
+  <g stroke="#00C9FF" stroke-width="1" fill="none" opacity="0.2">
+    <path d="M440,143 L460,143"/>
+    <path d="M740,143 L760,143"/>
+  </g>
+
+  <!-- Bottom line -->
+  <rect x="200" y="185" width="800" height="0.5" fill="url(#footerLine)" opacity="0.3"/>
+
+  <!-- Heart accent -->
+  <text x="600" y="180" text-anchor="middle"
+    font-family="system-ui, sans-serif" font-size="10" fill="#FF006E" opacity="0.5">
+    ♥
+  </text>
+</svg>

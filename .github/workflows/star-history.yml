@@ -1,0 +1,35 @@
+name: Star History
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"  # Weekly on Monday at noon UTC
+  workflow_dispatch:
+
+jobs:
+  star-history:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Star History
+        run: |
+          # Track star counts for featured repos
+          echo "## Star History — $(date -u '+%Y-%m-%d')" > assets/star-history.md
+          echo "" >> assets/star-history.md
+
+          for REPO in bharatrakshak-ai traffic-intelligence-platform KrishiMitra-AI; do
+            STARS=$(curl -s "https://api.github.com/repos/${{ github.repository_owner }}/$REPO" | jq '.stargazers_count // 0')
+            echo "- **$REPO**: ⭐ $STARS" >> assets/star-history.md
+          done
+
+      - name: Commit Star History
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add assets/star-history.md || true
+          git diff --staged --quiet || git commit -m "chore: update star history"
+          git push || true

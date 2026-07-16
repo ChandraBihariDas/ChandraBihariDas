@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <defs>
+    <!-- Card background gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111118"/>
+      <stop offset="100%" stop-color="#0A0A0F"/>
+    </linearGradient>
+    <!-- Card border gradient -->
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C9FF" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#7B2FFF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FF006E" stop-opacity="0.15"/>
+    </linearGradient>
+    <!-- Glass highlight -->
+    <linearGradient id="glassHighlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.01"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <!-- JavaScript badge -->
+    <linearGradient id="jsBadgeG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7DF1E"/>
+      <stop offset="100%" stop-color="#D4C00A"/>
+    </linearGradient>
+    <!-- Status glow -->
+    <filter id="statusGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+      <feColorMatrix type="matrix"
+        values="0 0 0 0 0
+                0 1 0 0 0
+                0 0 0.53 0 0
+                0 0 0 0.6 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Avatar placeholder glow -->
+    <radialGradient id="avatarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00C9FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#00C9FF" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Monogram gradient -->
+    <linearGradient id="monoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C9FF"/>
+      <stop offset="100%" stop-color="#7B2FFF"/>
+    </linearGradient>
+    <filter id="monoGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+      <feColorMatrix type="matrix"
+        values="0 0 0 0 0
+                0 0.78 0 0 0
+                0 0 1 0 0
+                0 0 0 0.4 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="avatarClip">
+      <circle cx="70" cy="70" r="32"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card background -->
+  <rect x="2" y="2" width="476" height="316" rx="16" fill="url(#cardBg)"/>
+
+  <!-- Glass overlay -->
+  <rect x="2" y="2" width="476" height="160" rx="16" fill="url(#glassHighlight)"/>
+
+  <!-- Card border -->
+  <rect x="2" y="2" width="476" height="316" rx="16"
+    fill="none" stroke="url(#cardBorder)" stroke-width="1"/>
+
+  <!-- Subtle corner decoration -->
+  <g stroke="#00C9FF" stroke-width="0.5" fill="none" opacity="0.2">
+    <path d="M20,18 L20,28 M20,18 L30,18"/>
+    <path d="M460,18 L460,28 M460,18 L450,18"/>
+  </g>
+
+  <!-- Avatar area -->
+  <g transform="translate(40, 40)">
+    <!-- Avatar background glow -->
+    <circle cx="32" cy="32" r="36" fill="url(#avatarGlow)"/>
+    <!-- Avatar ring -->
+    <circle cx="32" cy="32" r="32" fill="none" stroke="url(#monoGrad)" stroke-width="1.5" opacity="0.5"/>
+    <!-- UT Monogram inside avatar -->
+    <g filter="url(#monoGlow)" transform="translate(32,32) scale(0.5)">
+      <path d="M-28,-18 L-28,8 C-28,20 -18,28 -6,28 L-2,28 C10,28 16,20 16,8 L16,4"
+        fill="none" stroke="url(#monoGrad)" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-2,-24 L34,-24 M16,-24 L16,26"
+        fill="none" stroke="url(#monoGrad)" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Name -->
+  <text x="120" y="60" 
+    font-family="'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif"
+    font-size="22" font-weight="700" fill="#E4E4E7">
+    Utkarsh Tripathi
+  </text>
+
+  <!-- Role -->
+  <text x="120" y="82"
+    font-family="'SF Mono', 'Fira Code', monospace"
+    font-size="12" fill="#00C9FF" opacity="0.8">
+    JavaScript Full Stack Developer
+  </text>
+
+  <!-- Education -->
+  <text x="120" y="100"
+    font-family="'SF Pro Text', 'Inter', system-ui, sans-serif"
+    font-size="11" fill="#71717A">
+    B.Tech CSE · LNCT Bhopal
+  </text>
+
+  <!-- Divider line -->
+  <line x1="30" y1="120" x2="450" y2="120" stroke="#FFFFFF" stroke-width="0.5" opacity="0.05"/>
+
+  <!-- Info grid -->
+  <g transform="translate(30, 140)">
+    <!-- Row 1: Primary Dev Language -->
+    <text x="0" y="14"
+      font-family="'SF Mono', 'Fira Code', monospace"
+      font-size="11" fill="#71717A">
+      primary_dev
+    </text>
+    <g transform="translate(130, 2)">
+      <rect width="80" height="18" rx="9" fill="url(#jsBadgeG)" opacity="0.9"/>
+      <text x="40" y="13" text-anchor="middle"
+        font-family="'SF Mono', 'Fira Code', monospace"
+        font-size="10" font-weight="600" fill="#000000">
+        JavaScript
+      </text>
+    </g>
+
+    <!-- Row 2: Primary DSA Language -->
+    <text x="0" y="42"
+      font-family="'SF Mono', 'Fira Code', monospace"
+      font-size="11" fill="#71717A">
+      primary_dsa
+    </text>
+    <text x="130" y="42"
+      font-family="'SF Mono', 'Fira Code', monospace"
+      font-size="11" fill="#00599C" opacity="0.9">
+      C++
+    </text>
+
+    <!-- Row 3: Stack -->
+    <text x="0" y="70"
+      font-family="'SF Mono', 'Fira Code', monospace"
+      font-size="11" fill="#71717A">
+      stack
+    </text>
+    <text x="130" y="70"
+      font-family="'SF Mono', 'Fira Code', monospace"
+      font-size="11" fill="#E4E4E7" opacity="0.8">
+      React · Node.js · Express · FastAPI
+    </text>
+
+    <!-- Row 4: Also uses -->
+    <text x="0" y="98"
+      font-family="'SF Mono', 'Fira Code', monospace"
+      font-size="11" fill="#71717A">
+      also_uses
+    </text>
+    <text x="130" y="98"
+      font-family="'SF Mono', 'Fira Code', monospace"
+      font-size="11" fill="#E4E4E7" opacity="0.8">
+      TypeScript · Python · MongoDB
+    </text>
+
+    <!-- Row 5: Focus -->
+    <text x="0" y="126"
+      font-family="'SF Mono', 'Fira Code', monospace"
+      font-size="11" fill="#71717A">
+      focus
+    </text>
+    <text x="130" y="126"
+      font-family="'SF Mono', 'Fira Code', monospace"
+      font-size="11" fill="#7B2FFF" opacity="0.9">
+      AI · ML · Full Stack · Backend
+    </text>
+  </g>
+
+  <!-- Status indicator -->
+  <g transform="translate(30, 290)">
+    <g filter="url(#statusGlow)">
+      <circle cx="6" cy="6" r="4" fill="#00FF88"/>
+    </g>
+    <text x="18" y="10"
+      font-family="'SF Mono', 'Fira Code', monospace"
+      font-size="11" fill="#00FF88" opacity="0.9">
+      Available for Internship
+    </text>
+  </g>
+
+  <!-- Bottom corner accent -->
+  <g stroke="#FF006E" stroke-width="0.5" fill="none" opacity="0.15">
+    <path d="M460,298 L460,288 M460,298 L450,298"/>
+  </g>
+</svg>

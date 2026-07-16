@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <!-- Neon Cyan Gradient -->
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C9FF"/>
+      <stop offset="100%" stop-color="#7B2FFF"/>
+    </linearGradient>
+    <!-- Background Radial Gradient -->
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0A0A0F"/>
+      <stop offset="70%" stop-color="#0A0A0F"/>
+      <stop offset="100%" stop-color="#0D0D14"/>
+    </radialGradient>
+    <!-- Outer Glow Filter -->
+    <filter id="glowOuter" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0
+                0 0.78 0 0 0
+                0 0 1 0 0
+                0 0 0 0.6 0" result="colorBlur"/>
+      <feMerge>
+        <feMergeNode in="colorBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Inner Glow Filter -->
+    <filter id="glowInner" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0
+                0 0.78 0 0 0
+                0 0 1 0 0
+                0 0 0 0.4 0" result="colorBlur"/>
+      <feMerge>
+        <feMergeNode in="colorBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Hexagon Clip Path -->
+    <clipPath id="hexClip">
+      <polygon points="100,8 178,54 178,146 100,192 22,146 22,54"/>
+    </clipPath>
+    <!-- Hexagon Shape Symbol -->
+    <symbol id="hexOutline" viewBox="0 0 200 200">
+      <polygon points="100,12 174,56 174,144 100,188 26,144 26,56"
+        fill="none" stroke="url(#neonCyan)" stroke-width="2.5"/>
+    </symbol>
+  </defs>
+
+  <!-- Background -->
+  <rect width="200" height="200" fill="#0A0A0F" rx="24"/>
+
+  <!-- Subtle grid dots -->
+  <g opacity="0.08">
+    <circle cx="40" cy="40" r="1" fill="#00C9FF"/>
+    <circle cx="80" cy="40" r="1" fill="#00C9FF"/>
+    <circle cx="120" cy="40" r="1" fill="#00C9FF"/>
+    <circle cx="160" cy="40" r="1" fill="#00C9FF"/>
+    <circle cx="40" cy="80" r="1" fill="#00C9FF"/>
+    <circle cx="80" cy="80" r="1" fill="#00C9FF"/>
+    <circle cx="120" cy="80" r="1" fill="#00C9FF"/>
+    <circle cx="160" cy="80" r="1" fill="#00C9FF"/>
+    <circle cx="40" cy="120" r="1" fill="#00C9FF"/>
+    <circle cx="80" cy="120" r="1" fill="#00C9FF"/>
+    <circle cx="120" cy="120" r="1" fill="#00C9FF"/>
+    <circle cx="160" cy="120" r="1" fill="#00C9FF"/>
+    <circle cx="40" cy="160" r="1" fill="#00C9FF"/>
+    <circle cx="80" cy="160" r="1" fill="#00C9FF"/>
+    <circle cx="120" cy="160" r="1" fill="#00C9FF"/>
+    <circle cx="160" cy="160" r="1" fill="#00C9FF"/>
+  </g>
+
+  <!-- Hexagon border with glow -->
+  <g filter="url(#glowOuter)">
+    <use href="#hexOutline" width="200" height="200"/>
+  </g>
+
+  <!-- Inner hexagon fill (glass effect) -->
+  <g clip-path="url(#hexClip)">
+    <rect width="200" height="200" fill="rgba(255,255,255,0.03)"/>
+    <!-- Glass highlight -->
+    <ellipse cx="100" cy="60" rx="80" ry="40" fill="rgba(255,255,255,0.02)"/>
+  </g>
+
+  <!-- UT Monogram -->
+  <g filter="url(#glowInner)" transform="translate(100,100)">
+    <!-- U letter -->
+    <path d="M-32,-22 L-32,10 C-32,24 -20,32 -6,32 L-2,32 C12,32 18,24 18,10 L18,6"
+      fill="none" stroke="url(#neonCyan)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- T letter (overlapping, shifted right) -->
+    <path d="M-2,-28 L38,-28 M18,-28 L18,30"
+      fill="none" stroke="url(#neonCyan)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Accent corner dots -->
+  <circle cx="100" cy="8" r="3" fill="#00C9FF" opacity="0.8" filter="url(#glowInner)"/>
+  <circle cx="22" cy="146" r="2" fill="#7B2FFF" opacity="0.5"/>
+  <circle cx="178" cy="146" r="2" fill="#7B2FFF" opacity="0.5"/>
+</svg>

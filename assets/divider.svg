@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 30" width="1200" height="30">
+  <defs>
+    <linearGradient id="divLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C9FF" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00C9FF" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#7B2FFF" stop-opacity="0.8"/>
+      <stop offset="75%" stop-color="#FF006E" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FF006E" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="diamondGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.48
+                0 0 0 0 0.18
+                0 0 0 0 1
+                0 0 0 0.7 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="lineGlow" x="-5%" y="-200%" width="110%" height="500%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0
+                0 0.78 0 0 0
+                0 0 1 0 0
+                0 0 0 0.3 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main gradient line with glow -->
+  <g filter="url(#lineGlow)">
+    <rect x="100" y="14" width="1000" height="1.5" rx="0.75" fill="url(#divLine)"/>
+  </g>
+
+  <!-- Center diamond with glow -->
+  <g filter="url(#diamondGlow)">
+    <polygon points="600,8 607,15 600,22 593,15" fill="#7B2FFF"/>
+  </g>
+
+  <!-- Side accent dots -->
+  <circle cx="200" cy="15" r="1.5" fill="#00C9FF" opacity="0.3"/>
+  <circle cx="1000" cy="15" r="1.5" fill="#FF006E" opacity="0.3"/>
+</svg>

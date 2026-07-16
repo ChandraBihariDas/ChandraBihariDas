@@ -1,0 +1,299 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580">
+  <defs>
+    <!-- Card gradients -->
+    <linearGradient id="pCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111118"/>
+      <stop offset="100%" stop-color="#0D0D14"/>
+    </linearGradient>
+    <linearGradient id="featuredBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C9FF" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#7B2FFF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF006E" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="normalBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <!-- Status badges -->
+    <linearGradient id="statusDev" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB800"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </linearGradient>
+    <linearGradient id="statusLive" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF88"/>
+      <stop offset="100%" stop-color="#00CC6A"/>
+    </linearGradient>
+    <!-- Tech pill backgrounds -->
+    <linearGradient id="jsPill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7DF1E"/>
+      <stop offset="100%" stop-color="#D4C00A"/>
+    </linearGradient>
+    <!-- Glow filters -->
+    <filter id="pGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+      <feColorMatrix type="matrix"
+        values="0 0 0 0 0
+                0 0.78 0 0 0
+                0 0 1 0 0
+                0 0 0 0.3 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="featGlow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+      <feColorMatrix type="matrix"
+        values="0 0 0 0 0
+                0 0.78 0 0 0
+                0 0 1 0 0
+                0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Priority label -->
+    <symbol id="priorityLabel" viewBox="0 0 60 16">
+      <rect width="60" height="16" rx="8" fill="#7B2FFF" opacity="0.2"/>
+      <text x="30" y="11.5" text-anchor="middle"
+        font-family="'SF Mono', monospace" font-size="8" font-weight="600" fill="#7B2FFF">
+        PRIORITY
+      </text>
+    </symbol>
+    <!-- Glass highlight -->
+    <linearGradient id="pGlassHL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="580" fill="#0A0A0F" rx="16"/>
+
+  <!-- Title -->
+  <g filter="url(#pGlow)">
+    <text x="450" y="36" text-anchor="middle"
+      font-family="'SF Pro Display', 'Inter', system-ui, sans-serif"
+      font-size="20" font-weight="700" fill="#E4E4E7" letter-spacing="0.5">
+      Featured Projects
+    </text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- PROJECT 1: BharatRakshak AI — LARGEST CARD -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <g transform="translate(30, 60)">
+    <!-- Card glow background -->
+    <g filter="url(#featGlow)">
+      <rect width="840" height="190" rx="14" fill="url(#featuredBorder)"/>
+    </g>
+    <!-- Card body -->
+    <rect width="840" height="190" rx="14" fill="url(#pCardBg)"/>
+    <!-- Glass highlight -->
+    <rect width="840" height="95" rx="14" fill="url(#pGlassHL)"/>
+    <!-- Featured border -->
+    <rect width="840" height="190" rx="14" fill="none" stroke="url(#featuredBorder)" stroke-width="1.5"/>
+
+    <!-- Priority #1 label -->
+    <use href="#priorityLabel" x="16" y="16" width="60" height="16"/>
+    <text x="84" y="28"
+      font-family="'SF Mono', monospace" font-size="9" fill="#7B2FFF" opacity="0.7">
+      #1
+    </text>
+
+    <!-- Status badge: Under Development -->
+    <g transform="translate(730, 14)">
+      <rect width="96" height="22" rx="11" fill="url(#statusDev)" opacity="0.15"/>
+      <circle cx="12" cy="11" r="3.5" fill="#FFB800" opacity="0.8"/>
+      <text x="54" y="15" text-anchor="middle"
+        font-family="'SF Mono', monospace" font-size="9" font-weight="600" fill="#FFB800">
+        In Development
+      </text>
+    </g>
+
+    <!-- Project emoji + name -->
+    <text x="20" y="60"
+      font-family="'SF Pro Display', 'Inter', system-ui, sans-serif"
+      font-size="22" font-weight="700" fill="#E4E4E7">
+      🇮🇳 BharatRakshak AI
+    </text>
+
+    <!-- Description -->
+    <text x="20" y="85"
+      font-family="'SF Pro Text', 'Inter', system-ui, sans-serif"
+      font-size="13" fill="#71717A">
+      AI-powered Disaster Early Warning and Emergency Response Platform for India.
+    </text>
+    <text x="20" y="105"
+      font-family="'SF Pro Text', 'Inter', system-ui, sans-serif"
+      font-size="13" fill="#71717A">
+      Real-time alerts, rescue coordination, and predictive disaster intelligence.
+    </text>
+
+    <!-- Tech stack pills -->
+    <g transform="translate(20, 125)">
+      <!-- JavaScript (emphasized) -->
+      <rect x="0" y="0" width="82" height="22" rx="11" fill="url(#jsPill)" opacity="0.9"/>
+      <text x="41" y="15" text-anchor="middle"
+        font-family="'SF Mono', monospace" font-size="10" font-weight="600" fill="#000">JavaScript</text>
+      <!-- Next.js -->
+      <rect x="92" y="0" width="60" height="22" rx="11" fill="none" stroke="#E4E4E7" stroke-width="0.5" opacity="0.3"/>
+      <text x="122" y="15" text-anchor="middle"
+        font-family="'SF Mono', monospace" font-size="10" fill="#E4E4E7" opacity="0.7">Next.js</text>
+      <!-- FastAPI -->
+      <rect x="162" y="0" width="60" height="22" rx="11" fill="none" stroke="#00FF88" stroke-width="0.5" opacity="0.3"/>
+      <text x="192" y="15" text-anchor="middle"
+        font-family="'SF Mono', monospace" font-size="10" fill="#00FF88" opacity="0.7">FastAPI</text>
+      <!-- MongoDB -->
+      <rect x="232" y="0" width="68" height="22" rx="11" fill="none" stroke="#00C9FF" stroke-width="0.5" opacity="0.3"/>
+      <text x="266" y="15" text-anchor="middle"
+        font-family="'SF Mono', monospace" font-size="10" fill="#00C9FF" opacity="0.7">MongoDB</text>
+      <!-- AI -->
+      <rect x="310" y="0" width="36" height="22" rx="11" fill="none" stroke="#7B2FFF" stroke-width="0.5" opacity="0.3"/>
+      <text x="328" y="15" text-anchor="middle"
+        font-family="'SF Mono', monospace" font-size="10" fill="#7B2FFF" opacity="0.7">AI</text>
+    </g>
+
+    <!-- Repo link indicator -->
+    <g transform="translate(20, 162)">
+      <text x="0" y="12"
+        font-family="'SF Mono', monospace" font-size="10" fill="#00C9FF" opacity="0.6">
+        → github.com/ChandraBihariDas/bharatrakshak-ai
+      </text>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- PROJECT 2: Traffic Intelligence Platform -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <g transform="translate(30, 270)">
+    <rect width="410" height="155" rx="14" fill="url(#pCardBg)"/>
+    <rect width="410" height="78" rx="14" fill="url(#pGlassHL)"/>
+    <rect width="410" height="155" rx="14" fill="none" stroke="url(#normalBorder)" stroke-width="1"/>
+
+    <!-- Priority #2 -->
+    <use href="#priorityLabel" x="16" y="12" width="60" height="16"/>
+    <text x="84" y="24" font-family="'SF Mono', monospace" font-size="9" fill="#7B2FFF" opacity="0.7">#2</text>
+
+    <!-- Status: Live -->
+    <g transform="translate(326, 10)">
+      <rect width="68" height="20" rx="10" fill="url(#statusLive)" opacity="0.15"/>
+      <circle cx="12" cy="10" r="3" fill="#00FF88" opacity="0.8"/>
+      <text x="42" y="14" text-anchor="middle"
+        font-family="'SF Mono', monospace" font-size="9" font-weight="600" fill="#00FF88">Live</text>
+    </g>
+
+    <!-- Name -->
+    <text x="16" y="52"
+      font-family="'SF Pro Display', 'Inter', system-ui, sans-serif"
+      font-size="16" font-weight="700" fill="#E4E4E7">
+      🚦 Traffic Intelligence Platform
+    </text>
+
+    <!-- Description -->
+    <text x="16" y="72"
+      font-family="'SF Pro Text', 'Inter', system-ui, sans-serif"
+      font-size="11" fill="#71717A">
+      AI-powered traffic intelligence for Bengaluru
+    </text>
+    <text x="16" y="88"
+      font-family="'SF Pro Text', 'Inter', system-ui, sans-serif"
+      font-size="11" fill="#71717A">
+      featuring forecasting, risk scoring, hotspot detection.
+    </text>
+
+    <!-- Tech pills -->
+    <g transform="translate(16, 100)">
+      <rect x="0" y="0" width="76" height="18" rx="9" fill="url(#jsPill)" opacity="0.8"/>
+      <text x="38" y="13" text-anchor="middle" font-family="'SF Mono', monospace" font-size="9" font-weight="600" fill="#000">JavaScript</text>
+      <rect x="84" y="0" width="50" height="18" rx="9" fill="none" stroke="#E4E4E7" stroke-width="0.5" opacity="0.3"/>
+      <text x="109" y="13" text-anchor="middle" font-family="'SF Mono', monospace" font-size="9" fill="#E4E4E7" opacity="0.7">React</text>
+      <rect x="142" y="0" width="56" height="18" rx="9" fill="none" stroke="#00FF88" stroke-width="0.5" opacity="0.3"/>
+      <text x="170" y="13" text-anchor="middle" font-family="'SF Mono', monospace" font-size="9" fill="#00FF88" opacity="0.7">FastAPI</text>
+      <rect x="206" y="0" width="60" height="18" rx="9" fill="none" stroke="#7B2FFF" stroke-width="0.5" opacity="0.3"/>
+      <text x="236" y="13" text-anchor="middle" font-family="'SF Mono', monospace" font-size="9" fill="#7B2FFF" opacity="0.7">CatBoost</text>
+      <rect x="274" y="0" width="30" height="18" rx="9" fill="none" stroke="#FF006E" stroke-width="0.5" opacity="0.3"/>
+      <text x="289" y="13" text-anchor="middle" font-family="'SF Mono', monospace" font-size="9" fill="#FF006E" opacity="0.7">ML</text>
+    </g>
+
+    <!-- Repo link -->
+    <text x="16" y="140"
+      font-family="'SF Mono', monospace" font-size="9" fill="#00C9FF" opacity="0.5">
+      → github.com/ChandraBihariDas/traffic-intelligence-platform
+    </text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- PROJECT 3: KrishiMitra AI -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <g transform="translate(460, 270)">
+    <rect width="410" height="155" rx="14" fill="url(#pCardBg)"/>
+    <rect width="410" height="78" rx="14" fill="url(#pGlassHL)"/>
+    <rect width="410" height="155" rx="14" fill="none" stroke="url(#normalBorder)" stroke-width="1"/>
+
+    <!-- Priority #3 -->
+    <use href="#priorityLabel" x="16" y="12" width="60" height="16"/>
+    <text x="84" y="24" font-family="'SF Mono', monospace" font-size="9" fill="#7B2FFF" opacity="0.7">#3</text>
+
+    <!-- Status: Live -->
+    <g transform="translate(326, 10)">
+      <rect width="68" height="20" rx="10" fill="url(#statusLive)" opacity="0.15"/>
+      <circle cx="12" cy="10" r="3" fill="#00FF88" opacity="0.8"/>
+      <text x="42" y="14" text-anchor="middle"
+        font-family="'SF Mono', monospace" font-size="9" font-weight="600" fill="#00FF88">Live</text>
+    </g>
+
+    <!-- Name -->
+    <text x="16" y="52"
+      font-family="'SF Pro Display', 'Inter', system-ui, sans-serif"
+      font-size="16" font-weight="700" fill="#E4E4E7">
+      🌾 KrishiMitra AI
+    </text>
+
+    <!-- Description -->
+    <text x="16" y="72"
+      font-family="'SF Pro Text', 'Inter', system-ui, sans-serif"
+      font-size="11" fill="#71717A">
+      AI-powered Smart Agriculture Platform
+    </text>
+    <text x="16" y="88"
+      font-family="'SF Pro Text', 'Inter', system-ui, sans-serif"
+      font-size="11" fill="#71717A">
+      helping Indian farmers with intelligent insights.
+    </text>
+
+    <!-- Tech pills -->
+    <g transform="translate(16, 100)">
+      <rect x="0" y="0" width="76" height="18" rx="9" fill="url(#jsPill)" opacity="0.8"/>
+      <text x="38" y="13" text-anchor="middle" font-family="'SF Mono', monospace" font-size="9" font-weight="600" fill="#000">JavaScript</text>
+      <rect x="84" y="0" width="50" height="18" rx="9" fill="none" stroke="#E4E4E7" stroke-width="0.5" opacity="0.3"/>
+      <text x="109" y="13" text-anchor="middle" font-family="'SF Mono', monospace" font-size="9" fill="#E4E4E7" opacity="0.7">React</text>
+      <rect x="142" y="0" width="30" height="18" rx="9" fill="none" stroke="#7B2FFF" stroke-width="0.5" opacity="0.3"/>
+      <text x="157" y="13" text-anchor="middle" font-family="'SF Mono', monospace" font-size="9" fill="#7B2FFF" opacity="0.7">AI</text>
+    </g>
+
+    <!-- Live URL + Repo -->
+    <text x="16" y="132"
+      font-family="'SF Mono', monospace" font-size="9" fill="#00FF88" opacity="0.6">
+      ↗ krishi-mitra-ai-nu.vercel.app
+    </text>
+    <text x="16" y="146"
+      font-family="'SF Mono', monospace" font-size="9" fill="#00C9FF" opacity="0.5">
+      → github.com/ChandraBihariDas/KrishiMitra-AI
+    </text>
+  </g>
+
+  <!-- Bottom accent -->
+  <g opacity="0.15">
+    <line x1="100" y1="460" x2="800" y2="460" stroke="#FFFFFF" stroke-width="0.5" stroke-dasharray="2,4"/>
+  </g>
+
+  <!-- Summary stats -->
+  <g transform="translate(450, 480)">
+    <text x="0" y="14" text-anchor="middle"
+      font-family="'SF Mono', monospace" font-size="11" fill="#71717A">
+      3 Projects · 2 Live · 1 In Development · AI-Powered
+    </text>
+  </g>
+</svg>

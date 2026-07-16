@@ -1,0 +1,31 @@
+name: GitHub Skyline
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"  # First day of every month
+  workflow_dispatch:
+
+jobs:
+  skyline:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Skyline
+        uses: mingjun97/github-skyline-action@main
+        with:
+          github_username: ${{ github.repository_owner }}
+          year: 2025
+          output_path: assets/skyline-2025.stl
+
+      - name: Commit Skyline
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add assets/skyline-*.stl || true
+          git diff --staged --quiet || git commit -m "chore: update skyline model"
+          git push || true
