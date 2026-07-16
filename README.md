@@ -165,9 +165,51 @@
 
 #### 📌 Repository Cards
 
-[![BharatRakshak AI](https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=bharatrakshak-ai&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7&cache_seconds=86400)](https://github.com/ChandraBihariDas/bharatrakshak-ai)
-[![Traffic Intelligence Platform](https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=traffic-intelligence-platform&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7&cache_seconds=86400)](https://github.com/ChandraBihariDas/traffic-intelligence-platform)
-[![KrishiMitra AI](https://github-readme-stats.vercel.app/api/pin/?username=ChandraBihariDas&repo=KrishiMitra-AI&hide_border=true&bg_color=0A0A0F&title_color=00C9FF&icon_color=7B2FFF&text_color=E4E4E7&cache_seconds=86400)](https://github.com/ChandraBihariDas/KrishiMitra-AI)
+<table>
+<tr>
+<td align="center" width="33%">
+
+[![BharatRakshak AI](https://img.shields.io/badge/🇮🇳_BharatRakshak_AI-00C9FF?style=for-the-badge&logoColor=white)](https://github.com/ChandraBihariDas/bharatrakshak-ai)
+
+AI-powered Disaster Early Warning & Emergency Response Platform
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+[![View Code](https://img.shields.io/badge/View_Code-0A0A0F?style=flat-square&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/bharatrakshak-ai)
+
+</td>
+<td align="center" width="33%">
+
+[![Traffic Intelligence](https://img.shields.io/badge/🚦_Traffic_Intelligence-00C9FF?style=for-the-badge&logoColor=white)](https://github.com/ChandraBihariDas/traffic-intelligence-platform)
+
+AI-powered Traffic Intelligence for Bengaluru
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![CatBoost](https://img.shields.io/badge/CatBoost-FF6F00?style=flat-square&logoColor=white)
+
+[![View Code](https://img.shields.io/badge/View_Code-0A0A0F?style=flat-square&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/traffic-intelligence-platform)
+
+</td>
+<td align="center" width="33%">
+
+[![KrishiMitra AI](https://img.shields.io/badge/🌾_KrishiMitra_AI-00C9FF?style=for-the-badge&logoColor=white)](https://github.com/ChandraBihariDas/KrishiMitra-AI)
+
+AI-powered Smart Agriculture Platform
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![AI](https://img.shields.io/badge/AI-7B2FFF?style=flat-square&logoColor=white)
+
+[![View Code](https://img.shields.io/badge/View_Code-0A0A0F?style=flat-square&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/KrishiMitra-AI) [![Live Demo](https://img.shields.io/badge/Live_Demo-00FF88?style=flat-square&logo=vercel&logoColor=white)](https://krishi-mitra-ai-nu.vercel.app/)
+
+</td>
+</tr>
+</table>
 
 </div>
 
