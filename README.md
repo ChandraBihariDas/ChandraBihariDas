@@ -324,10 +324,10 @@
 | Year | Event | Result |
 |:---:|:---|:---|
 | 2025 | 🥈 **Smart India Hackathon 2025** | **Runner-up** — National-level hackathon by Government of India |
-| 2025 | 🚦 **GridLock Hackathon 2.0** | **Participant** — Traffic intelligence challenge |
+| 2026 | 🚦 **GridLock Hackathon 2.0** | **Participant** — Traffic intelligence challenge |
 | 2026 | 🇮🇳 **Samsung Solve for Tomorrow 2026** | **Project** — Samsung Innovation Hackathon |
 | 2026 | ✈️ **IIT Indore × HAL Aerothon 2026** | **Project** — Aerospace engineering challenge |
-| 2025 | 🌍 **Google Vibe2Ship — LifeSaver AI** | **Project** — Google developer program |
+| 2026 | 🌍 **Google Vibe2Ship — LifeSaver AI** | **Project** — Google developer program |
 
 > 💡 *Only verified, substantiated achievements are listed. No fabricated entries.*
 
