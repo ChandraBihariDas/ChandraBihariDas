@@ -302,10 +302,7 @@ module.exports = developer; // Ship it. 🚀
 
 <!-- DIVIDER -->
 <img src="./assets/divider.svg" width="100%"/>
-## 📈 Recent GitHub Activity
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
 
 ## 🤝 Connect
 
