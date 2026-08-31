@@ -1,4 +1,4 @@
-## Star History — 2026-08-24
+## Star History — 2026-08-31
 
 - **bharatrakshak-ai**: ⭐ 0
 - **traffic-intelligence-platform**: ⭐ 1
